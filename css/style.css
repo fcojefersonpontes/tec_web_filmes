@@ -1,6 +1,16 @@
+footer {
+    background: #ffffff;
+    background: linear-gradient(0deg, #ffffff 0%, #16474e 30%, #16474e 50%, #16474e 70%, #ffffff 100%);
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 h2 {
     font-size: xx-large;
 }
+
 
 .head_bar {
     height: 5vh;
@@ -21,6 +31,7 @@ h2 {
     display: flex;
     height: 5vw;
     width: 5vw;
+    padding: 1%;
 }
 
 .search-icon {
@@ -64,6 +75,7 @@ h2 {
 .lancamentos-container {
     display: flex;
     justify-content: space-around;
+    align-items: flex-start;
 
 }
 
@@ -164,10 +176,21 @@ button {
     margin-left: .5em;
 }
 
+.section-head {
+    background: #ffffff;
+    background: linear-gradient(90deg, #ffffff 15%, #3b646a 40%, #16474e 60%, #ffffff 85%);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
 .destaque-head {
+
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background: linear-gradient(90deg, #ffffff 5%, #3b646a 10%, #16474e 90%, #ffffff 95%);
+
 }
 
 .select {
@@ -178,12 +201,106 @@ button {
 
 .destaque-content {
     display: grid;
-    column-gap: 1vw;
     grid-template-columns: repeat(5, 1fr);
-    justify-content: center;
+    align-items: center;
 }
 
 .destaque-banner {
     display: flex;
     width: 19vw;
+}
+
+.carregar-mais {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2vw;
+
+}
+
+.box-carregar {
+    padding: 0.5vw;
+    background-color: #16474e;
+    color: #ffffff;
+}
+
+.text-large {
+    font-size: large;
+}
+
+.box {
+    width: 50vw;
+    height: 50vw;
+    border: solid 1px #666;
+}
+
+
+.vw2-5 {
+    width: 2.5vw;
+    height: 2.5vw;
+
+}
+
+.vw5 {
+    width: 5vw;
+    height: 5vw;
+
+}
+
+.vw10 {
+    width: 10vw;
+    height: 10vw;
+}
+
+.vw40 {
+    width: 40vw;
+    height: 40vw;
+}
+
+.vw60 {
+    width: 60vw;
+    height: 60vw;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.align-start {
+    justify-content: flex-start;
+}
+
+.sobre-head {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: linear-gradient(90deg, #3b646a 0%, #16474e 50%, #ffffff 95%);
+
+}
+
+.ads {
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    
+}
+
+.editorial-item {
+    display: flex;
+    align-items: center;
+
+}
+
+.sobre-editorial {
+    width: 45vw;
+}
+
+.ad-item {
+    display: flex;
+    width:40vw;
 }

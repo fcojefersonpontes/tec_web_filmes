@@ -8,10 +8,14 @@
 
 
     <div class="topnav">
-        <div class="center"> <img class="logo" src="./image/animafilmes.png" alt="AnimaFilmes">
+        <div class="center"> <img class="logo-icon" src="./image/animafilmes.png" alt="AnimaFilmes">
         </div>
         <p class="head_text">Lançamentos | Em Destaques | Avaliações | Entrevistas & Marketing | Novidades</p>
-        <input type="text" placeholder="Search..">
+        <div class="search-bar">
+            <img class="search-icon" src="./image/search_icon.png" alt="search">
+        <input class="input-search" type="text" placeholder=" Search..">
+
+        </div>
     </div>
 
 
@@ -51,63 +55,76 @@
                 <div>
                     <p class="space-around"><b>Avaliação:</b><br>
                     </p>
-                    <div> 
+                    <div>
                         <img class="star-icon" src="./image/star-icon.png" alt="AnimaFilmes">
                         <img class="star-icon" src="./image/star-icon.png" alt="AnimaFilmes">
                         <img class="star-icon" src="./image/star-icon.png" alt="AnimaFilmes">
                         <img class="star-icon" src="./image/star-icon.png" alt="AnimaFilmes">
                         <img class="star-icon" src="./image/star-icon.png" alt="AnimaFilmes">
+
+                    </div>
+
+                    </p>
 
                 </div>
+            </div>
 
-                </p>
+        </div>
+        <div class="destaque-head">
+            <h2>Em Destaque</h2>
+            <div>
+                <label for="generos"></label>
 
+                <select class="select" name="generos" id="generos">
+                    <option value="aventua">Aventura</option>
+                    <option value="comedia">Ação</option>
+                    <option value="acao">Comédia</option>
+                    <option value="sci-fi">Ficção científica</option>
+                </select>
             </div>
         </div>
 
-    </div>
-    <h2>Destaques</h2>
-    <div>
-<label for="cars">Choose a car:</label>
 
-<select name="cars" id="cars">
-  <option value="volvo">Volvo</option>
-  <option value="saab">Saab</option>
-  <option value="mercedes">Mercedes</option>
-  <option value="audi">Audi</option>
-</select>
-    </div>
-    <div class="conteiner">
-        <h2>Comunidades de vídeos temáticos</h2>
-    </div>
-    <div class="filme_tematico">
-        <iframe width="400" height="315" src="https://www.youtube.com/embed/NHqSBM_Z2mA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="400" height="315" src="https://www.youtube.com/embed/21mDekTZwsw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="400" height="315" src="https://www.youtube.com/embed/PvHcXIAjgg0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-   
-   
-    <div class="conteiner">
-        <h2>Top 10 filmes mais assistidos de Animação</h2>
-    </div>
-    <div class="top_filmes">
-        <img src="./image/homem aranha.jpg" width="250" height="300" vspace="5" hspace="5">
-        <img src="./image/Poster_A_Pequena_Sereia.jpg"  width="250" height="300"vspace="5" hspace="5">
-        <img src="./image/coraline.jpg"  width="250" height="300"vspace="5" hspace="5">
-        <img src="./image/a noiva cadaver.jpg"  width="250" height="300" vspace="5" hspace="5">
-        <img src="./image/minions.png"  width="250" height="300"vspace="5" hspace="5">
-        <img src="./image/mitchell.jpg"  width="250" height="300" vspace="5" hspace="5">
-        <img src="./image/comotreinar.jpg"  width="250" height="300"vspace="5" hspace="5">
-        <img src="./image/seunome.jpg"  width="250" height="300" vspace="5" hspace="5">
-        <img src="./image/o-gigante-de-ferro.jpg"  width="250" height="300" vspace="5" hspace="5">
-        <img src="./image/shrek.jpg"  width="250" height="300" vspace="5" hspace="5">
+        <div class="conteiner">
+            <h2>Comunidades de vídeos temáticos</h2>
+        </div>
+        <div class="filme_tematico">
+            <iframe width="400" height="315" src="https://www.youtube.com/embed/NHqSBM_Z2mA"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe width="400" height="315" src="https://www.youtube.com/embed/21mDekTZwsw"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe width="400" height="315" src="https://www.youtube.com/embed/PvHcXIAjgg0"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
 
-    </div>
-    <div class="conteiner">
-        <h2>Fórum</h2>
-        <h2>Participe da comunidade postando vídeos e comentários:</h2>
-    </div>
-        
+
+        <div class="conteiner">
+            <h2>Top 10 filmes mais assistidos de Animação</h2>
+        </div>
+        <div class="top_filmes">
+            <img src="./image/homem aranha.jpg" width="250" height="300" vspace="5" hspace="5">
+            <img src="./image/Poster_A_Pequena_Sereia.jpg" width="250" height="300" vspace="5" hspace="5">
+            <img src="./image/coraline.jpg" width="250" height="300" vspace="5" hspace="5">
+            <img src="./image/a noiva cadaver.jpg" width="250" height="300" vspace="5" hspace="5">
+            <img src="./image/minions.png" width="250" height="300" vspace="5" hspace="5">
+            <img src="./image/mitchell.jpg" width="250" height="300" vspace="5" hspace="5">
+            <img src="./image/comotreinar.jpg" width="250" height="300" vspace="5" hspace="5">
+            <img src="./image/seunome.jpg" width="250" height="300" vspace="5" hspace="5">
+            <img src="./image/o-gigante-de-ferro.jpg" width="250" height="300" vspace="5" hspace="5">
+            <img src="./image/shrek.jpg" width="250" height="300" vspace="5" hspace="5">
+
+        </div>
+        <div class="conteiner">
+            <h2>Fórum</h2>
+            <h2>Participe da comunidade postando vídeos e comentários:</h2>
+        </div>
+
         <form action="Cadastro" method="post">
             <div>
                 <label for="name">Nome:</label>
@@ -133,7 +150,7 @@
                 <button type="submit">Cadastrar</button>
             </div>
         </form>
-   
+
 </body>
 <footer>
 </footer>

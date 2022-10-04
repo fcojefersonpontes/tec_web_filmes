@@ -1,9 +1,14 @@
+h2 {
+    font-size: xx-large;
+}
+
 .head_bar {
     height: 5vh;
     display: flex;
     justify-content: space-between;
 
 }
+
 .topnav {
     overflow: hidden;
     display: flex;
@@ -17,6 +22,7 @@
     height: 5vw;
     width: 5vw;
 }
+
 .search-icon {
     display: flex;
     height: 2vw;
@@ -47,7 +53,7 @@
     font-size: large;
 }
 
-.input-search{
+.input-search {
     height: 3vw;
     width: 20vw;
     font-size: medium;
@@ -168,4 +174,16 @@ button {
     height: 3vw;
     width: 20vw;
     font-size: large;
+}
+
+.destaque-content {
+    display: grid;
+    column-gap: 1vw;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+}
+
+.destaque-banner {
+    display: flex;
+    width: 19vw;
 }

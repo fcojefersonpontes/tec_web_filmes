@@ -303,3 +303,30 @@ button {
     display: flex;
     width:40vw;
 }
+
+.makin_of{
+    display: grid;
+    margin: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+}
+
+
+.legenda{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    text-align: left;
+}
+
+.legenda-layout{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    text-align: left;
+    margin-right: 40px;
+}
+
+span{
+    font-size: 14px; 
+}

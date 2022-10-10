@@ -304,13 +304,53 @@ button {
     width:40vw;
 }
 
+/* Avaliações Style:*/
+.avaliacoes{
+    display: flex;
+    font-family: 'Lucida Sans';
+    margin: 80px;
+    gap: 50px;
+    justify-content:space-around;
+}
+
+.icone-perfil{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 5px solid rgb(80, 76, 77);
+}
+
+.icone-estrela{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: none;
+}
+
+.dados{
+  display: flex;
+  gap: 30px;
+  font-size: 80%;    
+}
+
+.nota-data{
+    display: flex;
+    margin-top: 25px;
+    flex-direction: row;
+    justify-content:space-between;
+    text-align: left;
+    margin-right: 10px;
+}
+/* Avaliações Style*/
+
+
+/* Making Of Style:*/
 .makin_of{
     display: grid;
     margin: 20px;
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-around;
 }
-
 
 .legenda{
     display: flex;
@@ -330,3 +370,4 @@ button {
 span{
     font-size: 14px; 
 }
+/* Making Of Style*/

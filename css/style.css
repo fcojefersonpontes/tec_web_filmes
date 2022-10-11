@@ -89,6 +89,19 @@ h2 {
     height: 22.5vh;
 }
 
+.favorito-video-item iframe {
+    width: 24vw;
+    height: 29vw;
+}
+
+.favorito-video {
+    width: 22.5vw;
+    height: 35vw;
+    justify-self: center;
+
+}
+
+
 .lancamentos-descrption {
     width: 45vw;
 }
@@ -355,6 +368,17 @@ button {
     height: 15px;
     border-radius: 50%;
     border: none;
+}
+
+.icone-favorite {
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .dados {

@@ -363,6 +363,13 @@ button {
     border: 5px solid rgb(80, 76, 77);
 }
 
+
+.icone-film {
+    width: 5vw;
+    border-radius: 50%;
+    border: 5px solid rgb(80, 76, 77);
+}
+
 .icone-estrela {
     width: 15px;
     height: 15px;

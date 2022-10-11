@@ -84,6 +84,11 @@ h2 {
     height: 45vh;
 }
 
+.sugestao-video iframe {
+    width: 22.5vw;
+    height: 22.5vh;
+}
+
 .lancamentos-descrption {
     width: 45vw;
 }
@@ -91,6 +96,13 @@ h2 {
 .space-around {
 
     display: flex;
+}
+
+.box-sugestoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
 }
 
 .center-text {
@@ -182,6 +194,8 @@ button {
     color: #ffffff;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 7.5vh;
 }
 
 .destaque-head {
@@ -301,17 +315,19 @@ button {
 
 .ad-item {
     display: flex;
-    width:40vw;
+    width: 40vw;
 }
 
 .nov-item-image {
     display: flex;
-    width:10vw;
+    width: 10vw;
 }
+
 .nov-item-coment {
     display: flex;
-    width:30vw;
+    width: 30vw;
 }
+
 .nov-item {
     display: flex;
     align-items: center;
@@ -319,69 +335,71 @@ button {
 }
 
 /* Avaliações Style:*/
-.avaliacoes{
+.avaliacoes {
     display: flex;
     font-family: 'Lucida Sans';
     margin: 80px;
     gap: 50px;
-    justify-content:space-around;
+    justify-content: space-around;
 }
 
-.icone-perfil{
+.icone-perfil {
     width: 45px;
     height: 45px;
     border-radius: 50%;
     border: 5px solid rgb(80, 76, 77);
 }
 
-.icone-estrela{
+.icone-estrela {
     width: 15px;
     height: 15px;
     border-radius: 50%;
     border: none;
 }
 
-.dados{
-  display: flex;
-  gap: 30px;
-  font-size: 80%;    
+.dados {
+    display: flex;
+    gap: 30px;
+    font-size: 80%;
 }
 
-.nota-data{
+.nota-data {
     display: flex;
     margin-top: 25px;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
     text-align: left;
     margin-right: 10px;
 }
+
 /* Avaliações Style*/
 
 
 /* Making Of Style:*/
-.makin_of{
+.makin_of {
     display: grid;
     margin: 20px;
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-around;
 }
 
-.legenda{
+.legenda {
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
+    justify-content: space-around;
     text-align: left;
 }
 
-.legenda-layout{
+.legenda-layout {
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
     text-align: left;
     margin-right: 40px;
 }
 
-span{
-    font-size: 14px; 
+span {
+    font-size: 14px;
 }
+
 /* Making Of Style*/

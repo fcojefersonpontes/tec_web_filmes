@@ -664,4 +664,22 @@ span {
         height: auto;
     
     }
+    .logo-icon {
+        width: 10vw;
+        height: 10vw;
+    }
+
+    .search-icon {
+        width: 8vw;
+        height: 8vw;
+    }
+    .input-search {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 600px) {
+    .head_text {
+        display: none;
+    }
 }

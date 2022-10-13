@@ -329,7 +329,9 @@ button {
     width: 60vw;
     height: 60vw;
 }
-
+.favoritos{
+    display: flex;
+}
 .wrapper {
     display: flex;
     justify-content: space-around;
@@ -488,6 +490,10 @@ span {
 /* Mibile scream */
 
 @media screen and (min-width: 0px) and (max-width: 1000px) {
+    h2 {
+        font-size: x-large;
+    }
+    
 
     .topnav {
         display: flex;
@@ -530,7 +536,7 @@ span {
     .avaliacoes {
         overflow: auto;
         flex-direction: column;
-        height: 90vw;
+        height: 60vw;
 
     }
 
@@ -575,5 +581,39 @@ span {
         align-items: center;
     
     }
+    .destaque-content {
+        overflow: auto;
+        white-space: nowrap;
+
+    }
+    .destaque-banner {
+        width: 50vw;
+    }
+    .select {
+        height: 6vh;
+        width: 25vw;
+        font-size: large;
+    }
+    .favoritos{
+        overflow: auto;
+        white-space: nowrap;
+    }
+    .favorito-video {
+        width: 50vw;
+        height: 50vw;
+    }
+    .favorito-video-item iframe {
+        width: 50vw;
+        height: 50vw;
+
+    }
+    .conteiner {
+        margin:0;
+    }
+    .icone-favorite {
+        width: 3vw;
+        height: 3vw;
+    }
     
+
 }

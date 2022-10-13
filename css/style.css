@@ -11,20 +11,13 @@ h2 {
     font-size: xx-large;
 }
 
-
-.head_bar {
-    height: 5vh;
-    display: flex;
-    justify-content: space-between;
-
-}
-
 .topnav {
     overflow: hidden;
     display: flex;
+    width: 100vw;
     align-items: center;
     align-content: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .logo-icon {
@@ -109,6 +102,9 @@ h2 {
 .space-around {
 
     display: flex;
+    flex-wrap: wrap;
+    width: 45vw;
+
 }
 
 .box-sugestoes {
@@ -409,10 +405,11 @@ button {
 /* Making Of Style:*/
 .makin_of {
     display: grid;
-    margin: 20px;
     grid-template-columns: repeat(3, 1fr);
-    justify-content: space-around;
-}
+    grid-template-rows: 1fr;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;}
 
 .legenda {
     display: flex;
@@ -424,7 +421,7 @@ button {
 .legenda-layout {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     text-align: left;
     margin-right: 40px;
 }
@@ -434,3 +431,35 @@ span {
 }
 
 /* Making Of Style*/
+
+/* Mibile scream */
+
+@media screen and (min-width: 240px) and (max-width: 1000px) {
+
+    .topnav {
+        display: flex;
+        width: 100vw;
+
+    }
+
+    .logo-icon {
+        display: flex;
+        height: 5vw;
+        width: 5vw;
+        padding: 1%;
+    }
+
+    .search-icon {
+        display: flex;
+        height: 2vw;
+        width: 2vw;
+    }
+
+    .search-bar {
+        display: flex;
+        width: 25vw;
+        align-items: center;
+        align-content: center;
+        justify-content: space-around;
+    }
+}

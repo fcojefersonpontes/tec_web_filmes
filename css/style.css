@@ -359,6 +359,14 @@ button {
     justify-items: center;
 
 }
+.nov {
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+
+}
 
 .editorial-item {
     display: flex;
@@ -523,8 +531,8 @@ span {
     }
 
     .filme-tematico-item iframe {
-        width: 50vw;
-        height: 45vw;
+        width: 70vw;
+        height: 50vw;
     }
 
     .container-image-top-filme {
@@ -599,12 +607,12 @@ span {
         white-space: nowrap;
     }
     .favorito-video {
-        width: 50vw;
-        height: 50vw;
+        width: 60vw;
+        height: 60vw;
     }
     .favorito-video-item iframe {
-        width: 50vw;
-        height: 50vw;
+        width: 60vw;
+        height: 60vw;
 
     }
     .conteiner {
@@ -614,6 +622,46 @@ span {
         width: 3vw;
         height: 3vw;
     }
-    
+    .forum {
+        overflow: auto;
+        height: 90vw;
 
+    }
+    .icone-film {
+        width: 15vw;
+    }
+    
+    .nov {
+        width: 100vw;       
+
+    }
+    .nov-item {
+        width: 100vw;
+    }
+    .nov-item-image {
+        width: 20vw;
+    }
+    .nov-item-coment {
+        width: 70vw;
+    }
+    .box-sugestoes {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100vw;
+        height: 50vw;
+        overflow: auto;
+        white-space: nowrap;
+    }
+
+    .sugestao-video iframe {
+        width: 70vw;
+        height: 50vw;
+    }
+   
+    .sugestao-video {
+        width: 100%;
+        height: auto;
+    
+    }
 }
